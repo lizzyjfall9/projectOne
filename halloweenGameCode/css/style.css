@@ -1,0 +1,65 @@
+/* font-family: 'AR One Sans', sans-serif;
+font-family: 'Kavoon', serif; */
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Kavoon&display=swap');
+
+body{
+    background-color: #1D0B03;
+}
+
+header{
+    font-family: 'Kavoon', serif;
+    color: #5A3636;
+    -webkit-text-stroke: 5px #FD5E2E;
+    font-size: 80pt;
+}
+
+h1{
+    font-family: 'Kavoon', serif;
+    color: #5A3636;
+    -webkit-text-stroke: 1px #FD5E2E;
+    font-size: 30pt;
+    text-align: center;
+    margin-left: 50px;
+}
+
+h2{
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 18pt;
+    color: #FD5E2E;
+    text-align: center;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.h2Custom{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    position: relative;
+}
+
+.flex-row {
+    margin: auto;
+}
+
+img {
+    margin: auto;
+}
+
+.img-center{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
